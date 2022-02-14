@@ -47,7 +47,16 @@ html {
   color: #c8a97e;
 }
 
-.logo 
+.logo {
+  margin-left: 9rem;
+  z-index: 2;
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 100px;
+}
 
 /* ***************this below written code will work when our page content goes more than screen size or when it is scrolled */
 
@@ -191,7 +200,7 @@ html {
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: #ffffff;
   font-weight: 600;
   margin-bottom: 0;
@@ -239,7 +248,7 @@ html {
 /* *************featured section *************** */
 
 .featured {
-  padding-top: 30px;
+  padding-top: 290px;
   width: 100%;
   margin-top: -230px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -259,13 +268,13 @@ html {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 0;
-  color: #ffffff;
+  color: #aa873c;
 }
 
 .featured .featured-menus .text p {
   font-size: 14px;
   margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.781);
+  color: rgba(59, 58, 58, 0.781);
 }
 
 .featured .featured-menus .menu-img {
@@ -312,8 +321,8 @@ html {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: -165px;
-  width: 679px;
+  right: -77px;
+  width: 678px;
   background: #ffffff;
   border: solid 2px #b49388;
   box-shadow: 0px 45px 70px rgba(0, 0, 0, 0.24);
@@ -321,7 +330,7 @@ html {
   padding-top: 55px;
   padding-bottom: 59px;
   padding-left: 70px;
-  padding-right: 50px;
+  padding-right: 90px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
@@ -945,3 +954,5 @@ html {
 .ftco-footer-social li .fa:hover {
   color: #000000;
 }
+
+
