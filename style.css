@@ -336,12 +336,14 @@ html {
 }
 
 .intro_subtitle {
-  font-size: 28px;
+  margin-left: 65px;
+  font-size: 38px;
   font-family: "Poppins";
 }
 
 .intro_title {
   margin-top: 6px;
+  margin-left: 75px;
   font-family: "Great Vibes", cursive;
   color: #9b4b15;
   font-weight: 600;
@@ -352,6 +354,7 @@ html {
 }
 
 .intro_text {
+  margin-left: 50px;
   margin-top: 32px;
   font-size: 14px;
 }
