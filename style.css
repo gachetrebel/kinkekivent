@@ -960,5 +960,15 @@ html {
 
 
 @media screen and (max-width:1200px) {
-  
+  .intro_content{
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .intro_content{
+    width: 145%;
+    height: 48%
+  }
 }
