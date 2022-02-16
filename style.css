@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -146,8 +148,8 @@ html {
   padding:.9rem 3rem;
   font-weight: 600;
   font-size: 1.4rem;
-  color:rgb(161, 99, 6);
-  background: var(--main-color);
+  color:#caac83;
+  background: #5c5c5c;
   cursor: pointer;
 }
 
@@ -1023,7 +1025,7 @@ font-size: 12px;
   width: 40px;
   display: block;
   float: left;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(27, 216, 10, 0.05);
   border-radius: 50%;
   position: relative;
 }
@@ -1041,7 +1043,7 @@ font-size: 12px;
 }
 
 .ftco-footer-social li .fa:hover {
-  color: #000000;
+  color: #9c1d1d;
 }
 
 
@@ -1137,7 +1139,7 @@ section{
     padding:.9rem 3rem;
     font-size: 1.7rem;
     color:#caac83;
-    background: white ;
+    background: #5e5b5b ;
     cursor: pointer;
 }
 
@@ -1555,7 +1557,7 @@ section{
 .blogs .box-container .box .content .title{
     font-size: 2.5rem;
     line-height: 1.5;
-    color:#fff;
+    color:#9e5f07;
 }
 
 .blogs .box-container .box .content .title:hover{
@@ -1572,7 +1574,7 @@ section{
 .blogs .box-container .box .content p{
     font-size: 1.6rem;
     line-height: 1.8;
-    color:#ccc;
+    color:rgb(82, 81, 81);
     padding:1rem 0;
 }
 
@@ -1581,11 +1583,11 @@ section{
     text-align: center;
 }
 
-.footer .share{
+.footer .shares{
     padding:1rem 0;
 }
 
-.footer .share a{
+.footer .shares a{
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -1596,7 +1598,7 @@ section{
     border-radius: 50%;
 }
 
-.footer .share a:hover{
+.footer .shares a:hover{
     background-color: var(--main-color);
 }
 
@@ -1605,7 +1607,7 @@ section{
     justify-content: center;
     flex-wrap: wrap;
     padding:2rem 0;
-    gap:1rem;
+    gap:2rem;
 }
 
 .footer .links a{
@@ -1630,7 +1632,31 @@ section{
     color:var(--main-color);
 }
 
+.shar {
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -ms-flex-align: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
 
+.shar {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color:#fff;
+  border:var(--border);
+  margin:.3rem;
+  border-radius: 50%;
+  padding:1rem 0;
+}
 
 
 
